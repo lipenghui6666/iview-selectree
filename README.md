@@ -5,3 +5,6 @@
 <div>
  <img src="/selectTree/src/assets/123.gif" width="800" height="500" />
 <div>
+
+这里是 <span style="color: red">红色文本</span>。
+<font color="#ff0000">红色文本</font>
