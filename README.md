@@ -6,5 +6,30 @@
  <img src="/selectTree/src/assets/123.gif" width="800" height="500" />
 <div>
 
-这里是 <span style="color: red">红色文本</span>。
-<font color="#ff0000">红色文本</font>
+
+## 引入模块
+
+      <selectTree style="width: 300px;"       
+                        v-model="current"    //数组     
+                        :treeData="treeData"     
+                        filterable        
+                        @select-tree="handleSelect"       
+                        :maxtagcount="2"          
+    ></selectTree>  
+
+ ### 入参  （参考iview tree）
+
+``` bash
+ treeData: [                       
+         {                        
+           id: 1,    //必填      
+           title: '中国',     
+           selected: false,  //必填          
+           children: []             
+          }                    
+         ]                       
+  
+```
+
+       
+    
